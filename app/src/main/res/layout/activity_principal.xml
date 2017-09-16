@@ -27,16 +27,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="numberDecimal"
-            android:textAlignment="viewStart"
-            android:textSize="18sp" />
+            android:hint="@string/primer_numero"
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/txtNumero2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="numberDecimal" />
+            android:hint="@string/segundo_numero"
+            android:inputType="numberSigned|numberDecimal"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView3"
